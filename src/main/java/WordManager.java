@@ -25,7 +25,7 @@ public class WordManager {
         return s.nextInt();
     }
 
-    public void start(){
+    public void start (){
         while (true) {
             int menu = selectMenu();
             if (menu == 0) break;
