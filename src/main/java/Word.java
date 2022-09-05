@@ -7,7 +7,8 @@ public class Word {
      * 3. 생성자
      * 4. method
      * */
-
+    private int id;
+    private int level;
     private String word;
     private String meaning;
 
@@ -30,12 +31,19 @@ public class Word {
     public Word() {
     }
 
-    public Word(String word) {
-        this.word = word;
+    public int getId() {
+        return id;
     }
 
-    public Word(String word, String meaning) {
-        this.word = word;
-        this.meaning = meaning;
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getLevel() {
+        return level;
+    }
+
+    public void setLevel(int level) {
+        this.level = level;
     }
 }
