@@ -12,6 +12,16 @@ public class Word {
     private String word;
     private String meaning;
 
+    public Word() {
+    }
+
+    public Word(int id, int level, String word, String meaning) {
+        this.id = id;
+        this.level = level;
+        this.word = word;
+        this.meaning = meaning;
+    }
+
     public String getWord() {
         return word;
     }
@@ -24,12 +34,8 @@ public class Word {
         return meaning;
     }
 
-
     public void setMeaning(String meaning) {
         this.meaning = meaning;
-    }
-
-    public Word() {
     }
 
     public int getId() {
