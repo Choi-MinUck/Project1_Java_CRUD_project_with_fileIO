@@ -5,5 +5,6 @@ public class Main {
         System.out.println("*** 영단어 마스터 ***");
 
         new WordManager().start();
+
     }
 }

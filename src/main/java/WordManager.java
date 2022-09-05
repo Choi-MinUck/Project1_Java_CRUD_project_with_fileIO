@@ -1,11 +1,15 @@
 package main.java;
 
-public class WordManager {
-    public void start(){
-        System.out.println("WordManager");
-    }
+import java.util.Scanner;
 
-    public void selectMenu(){
+public class WordManager {
+    Scanner s = new Scanner(System.in);
+    WordCRUD wordCRUD;
+
+    WordManager(){
+        wordCRUD = new WordCRUD(s);
+    }
+    public int selectMenu(){
         System.out.println("\n********************");
         System.out.println("1. 모든 단어 보기");
         System.out.println("2. 수준별 단어 보기");
@@ -15,6 +19,23 @@ public class WordManager {
         System.out.println("6. 단어 삭제");
         System.out.println("7. 파일 저장");
         System.out.println("0. 나가기");
-        System.out.println("********************\n");
+        System.out.println("********************");
+        System.out.println("=> 원하는 메뉴는? ");
+
+        return s.nextInt();
+    }
+
+    public void start(){
+        while (true) {
+            int menu = selectMenu();
+            if (menu == 0) break;
+            if (menu == 1){
+                //list
+            }
+            else if (menu == 4){
+                //create
+                wordCRUD.addWord();
+            }
+        }
     }
 }
