@@ -31,6 +31,7 @@ public class WordManager {
             if (menu == 0) break;
             if (menu == 1){
                 //list
+                wordCRUD.listAll();
             }
             else if (menu == 4){
                 //create
