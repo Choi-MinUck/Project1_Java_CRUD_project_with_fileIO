@@ -46,7 +46,7 @@ public class WordCRUD implements ICRUD{
 
     public void listAll(){
        System.out.println("--------------------------------");
-       for (int i = 1 ; i < List.size() ; i++){
+       for (int i = 0 ; i < List.size() ; i++){
            System.out.print((i + 1) + " ");
            System.out.println(List.get(i).toString());
        }
