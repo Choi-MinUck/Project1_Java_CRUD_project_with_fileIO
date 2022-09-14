@@ -1,4 +1,4 @@
-# HelloProject
+#Project1_Java_CRUD_project_with_fileIO
 
 ## 1. 실행화면
 <img src='https://github.com/Choi-MinUck/Project1_Java_CRUD_project_with_fileIO/blob/master/screenshots/%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4.PNG?raw=true' width = '600'>
