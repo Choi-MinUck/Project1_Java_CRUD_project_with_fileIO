@@ -105,11 +105,10 @@ public class WordCRUD implements ICRUD{
         s.nextLine();
 
         System.out.print("=> 정말로 삭제하시겠습니까? (Y/N) : ");
-        String yesOrNo = s.next();
-        yesOrNo.toUpperCase();
+        String yesOrNo = s.next().toUpperCase();
 
-        if(yesOrNo == "Y"){
-            List.remove(searchList.get(index - 1));
+        if(yesOrNo.equals("Y")){
+            List.remove((int)searchList.get(index - 1));
             System.out.println("단어가 삭제되었습니다.");
         } else {
             System.out.println("삭제를 취소하였습니다.");
