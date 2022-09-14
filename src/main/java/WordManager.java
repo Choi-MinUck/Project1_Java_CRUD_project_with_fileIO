@@ -33,12 +33,28 @@ public class WordManager {
                 break;
             }
             if (menu == 1){
-                //list
+                //1. 모든 단어 보기
                 wordCRUD.listAll();
             }
+            else if (menu == 2){
+                //2. 수준별 단어 보기
+            }
+            else if (menu == 3){
+                //3. 단어 검색
+            }
             else if (menu == 4){
-                //create
+                //4. 단어 추가
                 wordCRUD.addWord();
+            }
+            else if (menu == 5){
+                //5. 단어 수정
+                wordCRUD.updateWord();
+            }
+            else if (menu == 6){
+                //6. 단어 삭제
+            }
+            else if (menu == 7){
+                //7. 파일 저장
             }
         }
     }
