@@ -62,13 +62,17 @@ public class WordCRUD implements ICRUD{
 
         System.out.print("=> 수정할 번호 선택 : ");
         int index = s.nextInt();
+
+        s.nextLine();
+
         System.out.print("=> 뜻 입력 : ");
         String updateMeaning = s.nextLine();
         Word word = List.get(searchList.get(index - 1));
         word.setMeaning(updateMeaning);
-        System.out.print("단어가 수정되었습니다.");
 
+        System.out.println("단어가 수정되었습니다.");
     }
+
     public ArrayList<Integer> listAll(String searchWord){
         //[5. 단어 수정]의 수정할 단어 검색 시
 
@@ -87,5 +91,28 @@ public class WordCRUD implements ICRUD{
         System.out.println("--------------------------------");
 
         return searchList;
+    }
+
+    public void deleteWord(){
+        //5. 단어 삭제
+        System.out.print("=> 삭제할 단어 검색 : ");
+        String searchWord = s.next();
+        ArrayList<Integer> searchList = listAll(searchWord);
+
+        System.out.print("=> 삭제할 번호 선택 : ");
+        int index = s.nextInt();
+
+        s.nextLine();
+
+        System.out.print("=> 정말로 삭제하시겠습니까? (Y/N) : ");
+        String yesOrNo = s.next();
+        yesOrNo.toUpperCase();
+
+        if(yesOrNo == "Y"){
+            List.remove(searchList.get(index - 1));
+            System.out.println("단어가 삭제되었습니다.");
+        } else {
+            System.out.println("삭제를 취소하였습니다.");
+        }
     }
 }

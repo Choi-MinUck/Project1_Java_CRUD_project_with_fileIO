@@ -52,6 +52,7 @@ public class WordManager {
             }
             else if (menu == 6){
                 //6. 단어 삭제
+                wordCRUD.deleteWord();
             }
             else if (menu == 7){
                 //7. 파일 저장
