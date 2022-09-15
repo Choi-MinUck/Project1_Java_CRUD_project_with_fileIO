@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cfcad071-448d-46ad-8399-63ad9695b1e0" name="Changes" comment="updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordManager.java" afterDir="false" />
     </list>
@@ -64,7 +65,7 @@
       <workItem from="1662115191756" duration="14354000" />
       <workItem from="1662461632233" duration="16000" />
       <workItem from="1662461658508" duration="4000" />
-      <workItem from="1662461673192" duration="7809000" />
+      <workItem from="1662461673192" duration="11930000" />
     </task>
     <task id="LOCAL-00001" summary="created">
       <created>1662181072564</created>
@@ -164,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663169764444</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updated">
+      <created>1663170991893</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663170991893</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,5 +193,15 @@
     <MESSAGE value="created" />
     <MESSAGE value="updated" />
     <option name="LAST_COMMIT_MESSAGE" value="updated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

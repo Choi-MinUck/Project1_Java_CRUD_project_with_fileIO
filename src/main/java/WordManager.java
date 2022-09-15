@@ -1,6 +1,5 @@
 package main.java;
 
-import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class WordManager {
@@ -28,11 +27,8 @@ public class WordManager {
 
     public void start (){
 
-        try {
-            wordCRUD.loadFile();
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }
+        wordCRUD.loadFile();
+
         while (true) {
             int menu = selectMenu();
             if (menu == 0){
@@ -63,6 +59,7 @@ public class WordManager {
             }
             else if (menu == 7){
                 //7. 파일 저장
+                wordCRUD.saveFile();
             }
         }
     }

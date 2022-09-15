@@ -61,11 +61,15 @@ public class Word {
         for (int i = 0 ; i < level ; i++){
             slevel = slevel + "*";
         }
-        String str = String.format("%-3s", slevel
-                + String.format("%15s", word)
+        String str = String.format("%-5s", slevel
+                + String.format("%20s", word)
                 + "  "
                 + meaning);
 
         return  str;
+    }
+
+    public String toFileString(){
+        return this.level + "|" + this.word + "|" + this.meaning;
     }
 }
