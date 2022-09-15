@@ -178,4 +178,10 @@ public class WordCRUD implements ICRUD{
         int level = s.nextInt();
         listAll(level);
     }
+
+    public void searchWord() {
+        System.out.println("==> 찾고 싶은 단어는? : ");
+        String keyword = s.next();
+        listAll(keyword);
+    }
 }
