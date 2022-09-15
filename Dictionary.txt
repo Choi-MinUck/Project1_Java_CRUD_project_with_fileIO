@@ -1,4 +1,4 @@
-1|love|사랑, 사랑하다
+1|love|사랑
 1|kiwi|키위
 2|dictionary|사전
 4|hand-wave|속임수, 속이다
