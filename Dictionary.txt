@@ -5,3 +5,6 @@
 4|remuneration|보수
 2|fan|팬,부채질하다, 더욱 부추기다
 3|dismal|우울한, 솜씨없는
+2|lessen|(크기, 강도 등을)줄이다
+2|immature|미숙한, 다 자라지 못한
+4|amiable|쾌활한, 정감 있는
